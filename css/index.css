@@ -5,6 +5,7 @@
     --color-background: #e4e4e498;
     --color-blanco: #ffffff;
     --base-transiciones: 600ms;
+    --border-bordes:10px;
 }
 
 @font-face {
@@ -207,6 +208,116 @@ body {
     text-align: center;
 }
 
+/*
+    /*==========================================
+                   Hacemos tu proyecto realidad
+    ==========================================*
+*/
+
+
+
+.Hacemos-tu-proyect-realidad-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px 10px;
+    padding: 30px 0px 30px 0px;
+}
+
+.content-Hacemos-tu-proyect-realidad {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px 10px;
+    width: 50%;
+}
+
+.title-Hacemos-tu-proyect-realidad {
+    margin: 0%;
+    color: var(--color-azul-semioscuro);
+    font-size: 40px;
+    text-align: start;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.paraf-Hacemos-tu-proyect-realidad {
+    margin: 0%;
+    color: var(--color-azul-semioscuro);
+    font-size: 17px;
+    text-align: start;
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.butons-Hacemos-tu-proyect-realidad {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 20px 20px;
+}
+
+.button-1-paraf-Hacemos-tu-proyect-realidad {
+    background-color: var(--color-celeste-claro);
+    color: var(--color-blanco);
+
+    font-size: 12px;
+    padding: 10px;
+    box-shadow: #00a2ff44 0px 10px 20px, #00A3FF30 0px 6px 6px;
+    transition: var(--base-transiciones);
+    width:280px;
+    text-align: center;
+    border-radius: var(--border-bordes);
+    text-decoration: none;
+
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.button-1-paraf-Hacemos-tu-proyect-realidad:hover{
+    text-decoration: none;
+    color: var(--color-blanco);
+    transform: scale(1.050);
+}
+
+.button-2-paraf-Hacemos-tu-proyect-realidad {
+    background-color: var(--color-azul-semioscuro);
+    color: var(--color-blanco);
+
+    font-size: 12px;
+    padding: 10px;
+    box-shadow: #00000044 0px 10px 20px, #00000030 0px 6px 6px;
+    transition: var(--base-transiciones);
+    text-align: center;
+    width:280px;
+    border-radius: var(--border-bordes);
+
+    font-family: poppins, sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.button-2-paraf-Hacemos-tu-proyect-realidad:hover{
+    text-decoration: none;
+    color: var(--color-blanco);
+    transform: scale(1.050);
+}
+
+.img-Hacemos-tu-proyect-realidad-div {
+    width: 35%;
+}
+
+.img-Hacemos-tu-proyect-realidad {
+    width: 90%;
+    margin: 0% auto;
+    z-index: 4141414;
+}
 
 
 
@@ -266,7 +377,7 @@ body {
 }
 
 .img-content-project {
-    width: 90%;
+    width: 80%;
     margin: 0% auto;
 }
 
@@ -301,8 +412,33 @@ body {
     overflow: hidden;
 }
 
+.name-develop {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
 .team-title {
-    margin: 30px 0 7px;
+    text-align: start;
+    margin: 0% auto;
+    color: var(--color-azul-semioscuro);
+
+    font-family: "myFont";
+    font-size: 22px;
+    font-weight: bold;
+    text-align: start;
+}
+
+.team-title-dev {
+    text-align: start;
+    margin: 0% auto;
+    color: var(--color-azul-semioscuro);
+
+    font-family: "myFont";
+    font-size: 12px;
+    font-weight: 100;
+    text-align: start;
 }
 
 .overlay {
