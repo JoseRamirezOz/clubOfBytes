@@ -20,8 +20,8 @@ html{
     --color-blanco: #ffffff;
     --base-transiciones: 600ms;
     --border-bordes:10px;
-    --myFont:"myFont";
-    --myFont2:"myFont2";
+    --textos-generales:"myFont";
+    --textos-titulares:"myFont2";
 }
 
 
@@ -558,15 +558,89 @@ body #barNav{
     margin-right:3rem;
     margin-bottom:3rem;
     font-size:1.5rem;
-    font-family:var(--myFont);
+    font-family:var(--textos-generales);
 }
 
+/*-----------------------------------------------------------------
+    SECCION LO QUE OFRECEMOS
+------------------------------------------------------------------*/
+    #ourOffert article{
+        background:none;
+        width:70vw;
+        margin:0 auto;
+        margin-bottom:2rem;
+        padding:2rem;
+        font-family:var(--textos-generales);
 
+        display:flex;
+        flex-direction:row;
+        align-items:center;
+        justify-content:space-around;
+    }
 
+    #ourOffert article picture{
+        width:50%;
+        object-fit:cover;
 
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        align-items:center;
+    }
 
+    #ourOffert article div{
+        width:50%;
+    }
+
+    #ourOffert article h2{
+        font-size:3rem;
+        font-weight:bold;
+    }
+
+    #ourOffert article img{
+        width:30rem;
+        height:30rem;
+        object-fit:contain;
+    }
+
+    #ourOffert article p{
+        font-size:1.8rem;
+    }
 }
 
+/*-----------------------------------------------------------------
+    TEXTO DE INVITACION
+------------------------------------------------------------------*/
+#textInvitation{
+    background:url("/img/index/bgCode.jpg");
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size:cover;
+    width:100vw;
+    height:30rem;
+    font-size:3rem;
+    font-family:var(--textos-generales);
+    text-align:center;
+    font-weight:bold;
+    color:#fff;
+
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr;
+}
+
+#textInvitation #textInvitationBg{
+    background:rgba(0, 0, 0, .7);
+    width:100vw;
+    height:100%;
+    grid-row:1/2;
+    grid-column:1/2;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
 
 @media (max-width: 800px) { 
 
