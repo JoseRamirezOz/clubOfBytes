@@ -27,7 +27,13 @@ body {
     font-size: 15px;
 }
 
+*{
+    text-decoration: none !important;
+}
 
+.col-md-4{
+    width: 25% !important;
+}
 
 /*==============HEADER===============*/
 .header-capa {
