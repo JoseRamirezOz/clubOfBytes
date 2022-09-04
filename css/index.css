@@ -1,13 +1,3 @@
-:root {
-    --color-celeste-claro: #00A3FF;
-    --color-azul-semioscuro: #0D2B4F;
-    --color-azul-oscuro: #021831;
-    --color-background: #e4e4e498;
-    --color-blanco: #ffffff;
-    --base-transiciones: 600ms;
-    --border-bordes:10px;
-}
-
 @font-face {
     font-family: "myFont";
     src: url("../img/fonts/Garet-Book.ttf");
@@ -17,6 +7,23 @@
     font-family: "myFont2";
     src: url("../img/fonts/Garet-Heavy.ttf");
 }
+
+html{
+    font-size:62.5%;
+}
+
+:root {
+    --color-celeste-claro: #00A3FF;
+    --color-azul-semioscuro: #0D2B4F;
+    --color-azul-oscuro: #021831;
+    --color-background: #e4e4e498;
+    --color-blanco: #ffffff;
+    --base-transiciones: 600ms;
+    --border-bordes:10px;
+    --myFont:"myFont";
+    --myFont2:"myFont2";
+}
+
 
 body {
     text-rendering: optimizeLegibility;
@@ -29,7 +36,24 @@ body {
 
 
 
-/*==============HEADER===============*/
+@media(min-width:800px){
+/*-----------------------------------------------------------------
+    SECCION HEADER
+------------------------------------------------------------------*/
+body #barNav{
+    background:var(--color-azul-semioscuro) !important;
+}
+
+.ourLogo{
+    width:5rem;
+    height:5rem;
+}
+
+#barNav .container-fluid a{
+    color:#fff;
+    font-size:1.8rem;
+}
+
 .header-capa {
     display: flex;
     flex-direction: row;
@@ -382,7 +406,9 @@ body {
 }
 
 
-/* TARJETAS------------------------------------------------------*/
+/*-----------------------------------------------------------------
+    SECCION NUESTRO EQUIPO
+------------------------------------------------------------------*/
 
 .our-team .team-row {
     margin-left: -40px;
@@ -511,4 +537,37 @@ body {
 .redes-sociales a:hover i {
     color: #fff;
     background-color: #355c7d;
+}
+
+#ourTeamCards{
+    background:none;
+    margin-top:2rem;
+    margin-bottom:5rem;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+
+#ourTeamCards div{
+    width:25rem;
+    height:25rem;
+    margin-right:3rem;
+    margin-bottom:3rem;
+    font-size:1.5rem;
+    font-family:var(--myFont);
+}
+
+
+
+
+
+}
+
+
+@media (max-width: 800px) { 
+
 }
