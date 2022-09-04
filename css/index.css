@@ -17,6 +17,7 @@ html{
     --color-azul-semioscuro: #0D2B4F;
     --color-azul-oscuro: #021831;
     --color-background: #e4e4e498;
+    --color-amarillo:#F1C40F;
     --color-blanco: #ffffff;
     --base-transiciones: 600ms;
     --border-bordes:10px;
@@ -606,7 +607,6 @@ body #barNav{
     #ourOffert article p{
         font-size:1.8rem;
     }
-}
 
 /*-----------------------------------------------------------------
     TEXTO DE INVITACION
@@ -617,8 +617,8 @@ body #barNav{
     background-position:center;
     background-size:cover;
     width:100vw;
-    height:30rem;
-    font-size:3rem;
+    height:50rem;
+    font-size:4rem;
     font-family:var(--textos-generales);
     text-align:center;
     font-weight:bold;
@@ -641,6 +641,168 @@ body #barNav{
     justify-content:center;
     align-items:center;
 }
+
+/*-----------------------------------------------------------------
+    SECCION NUESTRO USO DE METODOLOGIAS AGILES
+------------------------------------------------------------------*/
+#ourMethodAgil{
+    font-family:var(--textos-generales);
+    width:80vw;
+    margin:0 auto;
+    height:30rem;
+    padding:5rem;
+    text-align:center;
+
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+#ourMethodAgil .ourMethodAgilLema{
+    font-size:3rem;
+    font-weight:bold;
+}
+
+
+#ourMethodAgil .ourMethodAgilAuthor{
+    font-size:2.3rem;
+    margin-top:3rem;
+    border-bottom:solid .1rem black;
+}
+
+/*-----------------------------------------------------------------
+    SECCION SOBRE NUESTROS SERVICIOS
+------------------------------------------------------------------*/
+#ourServicesContainer article{
+    background:purple;
+    width:60vw;
+    margin:0 auto;
+    height:auto;
+    font-family:var(--textos-generales);
+    border-radius:3rem;
+    padding:4rem;
+    margin-bottom:2rem;
+    
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    justify-content:space-between;
+}
+
+#ourServicesContainer article picture{
+    width:20%;
+    margin-left:3rem;
+}
+
+#ourServicesContainer article p{
+    width:80%;
+    font-size:2rem;
+    color:#fff;
+}
+
+#ourServicesContainer article img{
+    width:10rem;
+    height:10rem;
+}
+
+#ourServicesContainer .ourServicesContainer1{
+    background:var(--color-azul-oscuro);
+}
+
+#ourServicesContainer .ourServicesContainer2{
+    background:var(--color-amarillo);
+}
+
+#ourServicesContainer .ourServicesContainer2 p{
+    color:var(--color-azul-oscuro);
+}
+
+
+#ourServicesContainer .ourServicesContainer3{
+    background:var(--color-azul-semioscuro);
+}
+
+#supportLocal{
+    background:none;
+    padding:3rem;
+    width:80vw;
+    margin:0 auto;
+    text-align:center;
+    font-family:var(--textos-generales);
+
+}
+
+#supportLocal h2{
+    font-size:3.5rem;
+    margin-bottom:2rem;
+}
+
+#supportLocal p{
+    font-size:2.5rem;
+}
+
+#supportLocal #supportLocalContainerForm{
+    border-radius:3rem;
+    border:solid .5rem rgba(0, 0, 0, .1);
+    padding:3rem;
+    margin-top:5rem;
+}
+
+
+#supportLocalContainerForm .textAboutForm{
+    margin-bottom:3rem;
+}
+
+#supportLocal #supportLocalContainerForm article{
+    margin-bottom:3rem;
+
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList{
+    margin-right:10rem;
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList label{
+    margin-left:3rem;
+    text-align:left;
+    font-size:2.3rem;
+    font-family:var(--textos-generales);
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList .form-check{
+    background:none;
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList .form-check input{
+    padding:1.2rem;
+}
+
+#supportLocal #supportLocalContainerForm #inputCorreo input{
+    height:5rem;
+    width:50rem;
+    font-size:2rem;
+    border-radius:1rem;
+}
+
+#supportLocal #supportLocalContainerForm .form-control{
+    height:20rem;
+    font-size:2rem;
+    border-radius:1rem;
+}
+
+
+} /* ⚠️⚠️⚠️⚠️ AQUI TERMINA LOS ESTILOS PARA VERSION DE ESCRITORIO ⚠️⚠️⚠️⚠️*/
+
+
+
 
 @media (max-width: 800px) { 
 
