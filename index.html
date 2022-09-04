@@ -1,232 +1,449 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Club Of Bytes</title>
-
-    <!---css-->
+    <!--- ESTILOS DE CSS-->
     <link rel="stylesheet" href="./css/general.css">
     <link rel="stylesheet" href="./css/index.css">
+    
 
-
-    <!-----------------librerias framewors etc---------->
-
-    <!---nosotros-->
-    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
-   
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
-    <!--font-->
+    <!-- FONT AWESOME -->
+    <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'>
+
+    <!--FUENTES DE TEXTO-->
     <link rel="stylesheet" href="https://use.typekit.net/eko5jwj.css">
 
-</head>
-
-<body>
-
-
-
+    <title>Club Of Bytes</title>
+  </head>
+  <body>
+    <nav id="barNav" class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="img/logosUotros/COB.png"  class="ourLogo" alt=""></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">¿Quines somos?</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Nuestro Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Proyectos</a>
+            </li>
+            <!-- <li class="nav-item">
+            <a class="nav-link" href="#">¿Quines somos?</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="#">Nuestro Team</a>
+            </li> -->
+              <!-- <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown link
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+              </li> -->
+        </ul>
+        </div>
+    </div>
+    </nav>
+    
     <section class="principal-banner">
 
-        <header class="header-capa">
-            <a class="a-capa-link-interno" href="">
-                <img width="80px" src="./img/logosUotros/COB.png" alt="Club of Bytes">
-            </a>
-            <a class="a-capa-link-interno" href="">¿Quines somos? </a>
-            <a class="a-capa-link-interno" href="">Nuestro Team</a>
-            <a class="a-capa-link-interno" href="">Proyectos</a>
-            <a class="a-capa-link-interno" href="">Proyectos </a>
-        </header>
+      <header class="header-capa">
+          <!-- <a class="a-capa-link-interno" href="">
+              <img width="80px" src="./img/logosUotros/COB.png" alt="Club of Bytes">
+          </a>
+          <a class="a-capa-link-interno" href="">¿Quines somos? </a>
+          <a class="a-capa-link-interno" href="">Nuestro Team</a>
+          <a class="a-capa-link-interno" href="">Proyectos</a>
+          <a class="a-capa-link-interno" href="">Proyectos </a> -->
+      </header>
 
-        <section class="content-info-COb">
+      <section class="content-info-COb">
 
-            <div class="content-info-COb-texts">
-                <h1 class="content-info-COb-seo-title">Club Of Bytes</h1>
+          <div class="content-info-COb-texts">
+              <h1 class="content-info-COb-seo-title">Club Of Bytes</h1>
 
-                <span class="content-info-COb-parraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-                    quas, aperiam eum aspernatur provident voluptatibus qui sequi fugiat soluta pariatur quam. Accusamus
-                    consectetur eos maiores minima? Maxime ipsa aspernatur rerum?</span>
+              <span class="content-info-COb-parraf">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                  quas, aperiam eum aspernatur provident voluptatibus qui sequi fugiat soluta pariatur quam. Accusamus
+                  consectetur eos maiores minima? Maxime ipsa aspernatur rerum?</span>
 
-                <form class="form-text-email" action="">
-                    <input class="input-form-text" placeholder="E-mail de contacto rapido para un proyecto" type="text">
-                    <button class="buton-form-text">Enviar</button>
-                </form>
+              <form class="form-text-email" action="">
+                  <input class="input-form-text" placeholder="E-mail de contacto rapido para un proyecto" type="text">
+                  <button class="buton-form-text">Enviar</button>
+              </form>
+          </div>
+
+          <img class="img-content-info-COb" src="./img/vectoriales/img.png" alt="">
+
+      </section>
+  </section>
+
+  <div style="height: 13vh;"></div>
+
+  <!--
+  /*==========================================
+                 quienes somos
+  ==========================================*/
+  -->
+  <section class="quienes-somos-div">
+      <h3 class="quienes-somos-div-seo-title">¿Quines somos?</h3>
+      <p class="quienes-somos-div-seo-paraf">
+          Nuestro equipo de desarrolladores son profesionales en encontrar las mejore soluciones para nuestros
+          clientes buscando llevar tu idea a la realidad ofreciéndote: Buen SEO (Posicionamiento en buscadores)
+          Responsive Desing (Buena apariencia en dispositivos móviles) UI / UX (Experiencia de usuario con una buena
+          interfaz) Resguardo de tus datos de forma íntegra y segura (Backend)
+      </p>
+  </section>
+
+
+  <!--
+  /*==========================================
+                  NUESTRO TRABAJO
+  ==========================================*/
+  -->
+  <p class="nuestro-trabajo-div-title">NUESTRO TRABAJO</p>
+  <div class="border-nuestro-trabajo"></div>
+  <section class="nuestro-trabajo-div">
+
+      <a href="" class="nuestro-trabajo-div-content-project">
+          <img src="./img/logosUotros/orion.png" alt="" class="img-content-project">
+      </a>
+
+  </section>
+
+  <!--
+  /*==========================================
+                 Hacemos tu proyecto realidad
+  ==========================================*/
+  -->
+
+  <section class="Hacemos-tu-proyect-realidad-div">
+      <div class="content-Hacemos-tu-proyect-realidad">
+          <p class="title-Hacemos-tu-proyect-realidad">HACEMOS TU<br>PROYECTO REALIDAD</p>
+
+          <span class="paraf-Hacemos-tu-proyect-realidad">Lorem ipsum dolor sit, amet consectetur adipisicing
+              elit.Quas temporibus a, id quos quis, quia optio voluptatem eaque pariatur cumque ipsam explicabo
+              consequuntur numquam officiis repellat voluptates illum odio? Distinctio.</span>
+
+          <hgroup class="butons-Hacemos-tu-proyect-realidad">
+              <a href="" class="button-1-paraf-Hacemos-tu-proyect-realidad">Envia tu breif con los datos de tu empresa</a>
+              <a href="" class="button-2-paraf-Hacemos-tu-proyect-realidad">Agendar cita en video llamada</a>
+          </hgroup>
+      </div>
+
+      <div class="img-Hacemos-tu-proyect-realidad-div">
+          <img src="./img/vectoriales/hacemosTuProyecto.png" alt="" class="img-Hacemos-tu-proyect-realidad">
+      </div>
+  </section>
+
+  <!--
+  /*==========================================
+                 nosotros
+  ==========================================*/
+  -->
+
+  <p  class="nuestro-trabajo-div-title">NUESTRO TEAM</p>
+  <section class="container">
+      <div id="ourTeamCards" class="row team-row">
+
+          <div class="col-md-4 col-sm-6 team-wrap">
+              <div class="miembros">
+                  <div class="team-img">
+                      <img src="./img/nosotros/josue.jpg" alt="">
+                      <div class="overlay">
+                          <div class="detalles text-center">
+                              <p>
+                                  Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
+                              </p>
+                              <div class="redes-sociales mt-20">
+                                  <a href="#"><i class="fa fa-facebook"></i></a>
+                                  <a href="#"><i class="fa fa-twitter"></i></a>
+                                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                                  <a href="#"><i class="fa fa-envelope"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <h6 class="team-title">Josue Rivera</h6>
+                  <span class="team-title-dev">FrontEnd Developer</span>
+              </div>
+          </div>
+
+          <div id="prueb" class="col-md-4 col-sm-6 team-wrap">
+              <div class="miembros">
+                  <div class="team-img">
+                      <img src="./img/nosotros/jose.png" alt="">
+                      <div class="overlay">
+                          <div class="detalles text-center">
+                              <p>
+                                  Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
+                              </p>
+                              <div class="redes-sociales mt-20">
+                                  <a href="#"><i class="fa fa-facebook"></i></a>
+                                  <a href="#"><i class="fa fa-twitter"></i></a>
+                                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                                  <a href="#"><i class="fa fa-envelope"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <h6 class="team-title">Jose Ramirez</h6>
+                  <span class="team-title-dev">FrontEnd Developer</span>
+              </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 team-wrap">
+              <div class="miembros ">
+                  <div class="team-img">
+                      <img src="./img/nosotros/marco.png" alt="">
+                      <div class="overlay">
+                          <div class="detalles text-center">
+                              <p>
+                                  Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
+                              </p>
+                              <div class="redes-sociales mt-20">
+                                  <a href="#"><i class="fa fa-facebook"></i></a>
+                                  <a href="#"><i class="fa fa-twitter"></i></a>
+                                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                                  <a href="#"><i class="fa fa-envelope"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <h6 class="team-title">Marco Antonio</h6>
+                  <span class="team-title-dev">BackEnd Developer</span>
+              </div>
+          </div>
+
+
+          <div class="col-md-4 col-sm-6 team-wrap">
+              <div class="miembros ">
+                  <div class="team-img">
+                      <img src="./img/nosotros/adele.png" alt="">
+                      <div class="overlay">
+                          <div class="detalles text-center">
+                              <p>
+                                  Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
+                              </p>
+                              <div class="redes-sociales mt-20">
+                                  <a href="#"><i class="fa fa-facebook"></i></a>
+                                  <a href="#"><i class="fa fa-twitter"></i></a>
+                                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                                  <a href="#"><i class="fa fa-envelope"></i></a>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+                  <h6 class="team-title">Adeleimar Medina</h6>
+                  <span class="team-title-dev">BackEnd Developer</span>
+              </div>
+          </div>
+
+          <div class="col-md-4 col-sm-6 team-wrap">
+            <div class="miembros ">
+                <div class="team-img">
+                    <img src="./img/nosotros/francis.jpeg" alt="">
+                    <div class="overlay">
+                        <div class="detalles text-center">
+                            <p>
+                                Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
+                            </p>
+                            <div class="redes-sociales mt-20">
+                                <a href="#"><i class="fa fa-facebook"></i></a>
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-google-plus"></i></a>
+                                <a href="#"><i class="fa fa-envelope"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h6 class="team-title">Francis Bayona</h6>
+                <span class="team-title-dev">Frontend Developer</span>
             </div>
+          </div>
+      </div>
+  </section>
 
-            <img class="img-content-info-COb" src="./img/vectoriales/img.png" alt="">
+    <!--------------------------------------------------------------
+        SECCION DE LO QUE NOSOTROS OFRECEMOS
+    ---------------------------------------------------------------->
+    <section id="ourOffert">
+        <article>
+            <picture>
+                <img src="img/vectoriales/seo.png" alt="">
+            </picture>
+            <div>
+                <h2>Software Engine Optimization</h2>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+                </p>
+            </div>
+        </article>
 
-        </section>
+        <article>
+            <div>
+                <h2>Responsive Desing</h2>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+                </p>
+            </div>
+            <picture>
+                <img src="img/vectoriales/responsive.png" alt="">
+            </picture>
+        </article>
+
+        <article>
+            <picture>
+                <img src="/img/vectoriales/uiUx.png" alt="">
+            </picture>
+            <div>
+                <h2>UI / UX</h2>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+                </p>
+            </div>
+        </article>
+
+        <article>
+            <div>
+                <h2>Proteccion de Datos</h2>
+                <p>
+                    Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500
+                </p>
+            </div>
+            <picture>
+                <img src="img/vectoriales/security.png" alt="">
+            </picture>
+        </article>
+
     </section>
 
-    <div style="height: 13vh;"></div>
+    <!--------------------------------------------------------------
+        SECCION PRIMER TEXTO INVITACION
+    ---------------------------------------------------------------->
+    <section id="textInvitation">
+        <article id="textInvitationBg">
+            <p>Estamos preparados para un nuevo reto, cuentanos tu idea y hagamosla realidad juntos.</p>
+        </article>
+    </section>
 
-    <!--
-    /*==========================================
-                   quienes somos
-    ==========================================*/
-    -->
-    <section class="quienes-somos-div">
-        <h3 class="quienes-somos-div-seo-title">¿Quines somos?</h3>
-        <p class="quienes-somos-div-seo-paraf">
-            Nuestro equipo de desarrolladores son profesionales en encontrar las mejore soluciones para nuestros
-            clientes buscando llevar tu idea a la realidad ofreciéndote: Buen SEO (Posicionamiento en buscadores)
-            Responsive Desing (Buena apariencia en dispositivos móviles) UI / UX (Experiencia de usuario con una buena
-            interfaz) Resguardo de tus datos de forma íntegra y segura (Backend)
+    <!--------------------------------------------------------------
+        SECCION NUESTRO USO DE METODOLOGIAS AGILES
+    ---------------------------------------------------------------->
+    <section id="ourMethodAgil">
+        <p class="ourMethodAgilLema">
+            <i>“Nuestra mayor prioridad es satisfacer al cliente
+            mediante la entrega temprana y continua de software
+            con valor.”</i>
         </p>
+        <p class="ourMethodAgilAuthor">- Principio de las metodologias agiles</p>
+    </section>
+
+    <!--------------------------------------------------------------
+        SECCION SOBRE NUESTROS SERVICIOS
+    ---------------------------------------------------------------->
+    <section id="ourServicesContainer">
+        <article class="ourServicesContainer1">
+            <picture>
+                <img src="img/index/twoWomens.png" alt="">
+            </picture>
+            <p>
+                Nuestro trabajo esta basado en las metodologias agiles de desarrollo, siendo nuestra prioridad la satisfacción del cliente y una alta comunicíon entre clientes y programadores 
+            </p>
+        </article>
+
+        <article class="ourServicesContainer2">
+            <picture>
+                <img src="img/index/team.png" alt="">
+            </picture>
+            <p>Durante nuestro proceso de desarrollo adecuamos
+                el <strong>Hosting</strong>, <strong>Dominio</strong> 
+                y <strong>Certificado SSL</strong> ideal para tu proyecto.</p>
+        </article>
+
+        <article class="ourServicesContainer3">
+            <picture>
+                <img src="img/index/idea.png" alt="">
+            </picture>
+            <p>¿No tienes una idea? nuestra prioridad es brindarte la mejor experiencía maquetaremos una solución basada en los datos que nos compartiste. </p>
+        </article>
+    </section>
+
+    <!--------------------------------------------------------------
+        SECCION SOPORTE TECNICO LOCAL
+    ---------------------------------------------------------------->
+    <section id="supportLocal">
+        <h2>Soporte Técnico Local, <b>CDMX</b></h2>
+        <p>Otro de nuestros servicios que puedes encontrar dentro de nuestro equipo sera el apoyo técnico para temas como: Mantenimiento preventivo y correctivo a equipos de computo, y soporte personalizado.</p>
+
+        <article id="supportLocalContainerForm">
+            <p class="textAboutForm">Selecciona el servicio que requieres y da una breve descripción de tu problema. </p>
+            <article>
+                <div class="FormCheckList">
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                            Mantenimiento Preventivo 
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Mantenimiento Correctivo
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                        <label class="form-check-label" for="flexRadioDefault2">
+                            Soporte personalizado 
+                        </label>
+                    </div>
+                </div>
+        
+        
+                <div class="inputsMailMessage">
+                    <div id="inputCorreo" class="mb-3">
+                        <!-- <label for="exampleFormControlInput1" class="form-label">Email address</label> -->
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </div>
+            </article>
+
+
+        <button type="button" class="btn btn-primary btn-lg">Enviar Información</button>
+        <button type="button" class="btn btn-secondary btn-lg">Limpiar</button>
+        </article>
     </section>
 
 
+    <!-- LINKS DE REFERENCIA A BOOTSTRAP -->
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
-    /*==========================================
-                    NUESTRO TRABAJO
-    ==========================================*/
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-    <p class="nuestro-trabajo-div-title">NUESTRO TRABAJO</p>
-    <div class="border-nuestro-trabajo"></div>
-    <section class="nuestro-trabajo-div">
-
-        <a href="" class="nuestro-trabajo-div-content-project">
-            <img src="./img/logosUotros/orion.png" alt="" class="img-content-project">
-        </a>
-
-    </section>
-
-    <!--
-    /*==========================================
-                   Hacemos tu proyecto realidad
-    ==========================================*/
-    -->
-
-    <section class="Hacemos-tu-proyect-realidad-div">
-        <div class="content-Hacemos-tu-proyect-realidad">
-            <p class="title-Hacemos-tu-proyect-realidad">HACEMOS TU<br>PROYECTO REALIDAD</p>
-
-            <span class="paraf-Hacemos-tu-proyect-realidad">Lorem ipsum dolor sit, amet consectetur adipisicing
-                elit.Quas temporibus a, id quos quis, quia optio voluptatem eaque pariatur cumque ipsam explicabo
-                consequuntur numquam officiis repellat voluptates illum odio? Distinctio.</span>
-
-            <hgroup class="butons-Hacemos-tu-proyect-realidad">
-                <a href="" class="button-1-paraf-Hacemos-tu-proyect-realidad">Envia tu breif con los datos de tu empresa</a>
-                <a href="" class="button-2-paraf-Hacemos-tu-proyect-realidad">Agendar cita en video llamada</a>
-            </hgroup>
-        </div>
-
-        <div class="img-Hacemos-tu-proyect-realidad-div">
-            <img src="./img/vectoriales/hacemosTuProyecto.png" alt="" class="img-Hacemos-tu-proyect-realidad">
-        </div>
-    </section>
-
-    <!--
-    /*==========================================
-                   nosotros
-    ==========================================*/
-    -->
-
-    <p class="nuestro-trabajo-div-title">NUESTRO TEAM</p>
-    <section class="container">
-        <div class="row team-row">
-
-            <div class="col-md-4 col-sm-6 team-wrap">
-                <div class="miembros">
-                    <div class="team-img">
-                        <img src="./img/nosotros/josue.jpg" alt="">
-                        <div class="overlay">
-                            <div class="detalles text-center">
-                                <p>
-                                    Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
-                                </p>
-                                <div class="redes-sociales mt-20">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-envelope"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h6 class="team-title">Josue Rivera</h6>
-                    <span class="team-title-dev">FrontEnd Developer</span>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 team-wrap">
-                <div class="miembros">
-                    <div class="team-img">
-                        <img src="./img/nosotros/jose.png" alt="">
-                        <div class="overlay">
-                            <div class="detalles text-center">
-                                <p>
-                                    Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
-                                </p>
-                                <div class="redes-sociales mt-20">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-envelope"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h6 class="team-title">Jose Ramirez</h6>
-                    <span class="team-title-dev">FrontEnd Developer</span>
-                </div>
-            </div>
-
-            <div class="col-md-4 col-sm-6 team-wrap">
-                <div class="miembros ">
-                    <div class="team-img">
-                        <img src="./img/nosotros/marco.png" alt="">
-                        <div class="overlay">
-                            <div class="detalles text-center">
-                                <p>
-                                    Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
-                                </p>
-                                <div class="redes-sociales mt-20">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-envelope"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h6 class="team-title">Marco Antonio</h6>
-                    <span class="team-title-dev">BackEnd Developer</span>
-                </div>
-            </div>
-
-
-            <div class="col-md-4 col-sm-6 team-wrap">
-                <div class="miembros ">
-                    <div class="team-img">
-                        <img src="./img/nosotros/adele.png" alt="">
-                        <div class="overlay">
-                            <div class="detalles text-center">
-                                <p>
-                                    Me gusta mucho el trabajo en equipo y hacer paginas web de todo tipo!
-                                </p>
-                                <div class="redes-sociales mt-20">
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                    <a href="#"><i class="fa fa-google-plus"></i></a>
-                                    <a href="#"><i class="fa fa-envelope"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <h6 class="team-title">Adeleimar Medina</h6>
-                    <span class="team-title-dev">BackEnd Developer</span>
-                </div>
-            </div>
-    </section>
-
-
-
-
-    <!-- scrips -->
-    
-</body>
-
-</html> -->
+  </body>
+</html>
