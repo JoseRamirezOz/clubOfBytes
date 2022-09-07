@@ -45,7 +45,7 @@ img {
 }
 
 .col-md-4 {
-    width: 25% !important;
+    width: 20% !important;
 }
 
 
@@ -160,7 +160,7 @@ body #barNav {
     width: 600px;
     height: auto;
     z-index: 31241;
-    padding-top: 80px;
+    padding-top: 170px;
 }
 
 
@@ -363,6 +363,7 @@ body #barNav {
     width: 90%;
     margin: 0% auto;
     z-index: 4141414;
+
 }
 
 
@@ -519,6 +520,7 @@ body #barNav {
 
 .detalles p {
     color: #fff;
+    font-size: 16px;
 }
 
 .team-img:hover .detalles {
@@ -532,9 +534,10 @@ body #barNav {
 
 .redes-sociales a {
     display: inline-block;
-    width: 37px;
-    height: 37px;
+    width: 40px;
+    height: 40px;
     background-color: transparent;
+    font-size: 40px;
 }
 
 .redes-sociales i {
@@ -561,7 +564,7 @@ body #barNav {
     background-color: #355c7d;
 }
 
-#ourTeamCards {
+/*#ourTeamCards {
     background: none;
     margin-top: 2rem;
     margin-bottom: 5rem;
@@ -581,7 +584,7 @@ body #barNav {
     margin-bottom: 3rem;
     font-size: 1.5rem;
     font-family: var(--textos-generales);
-}
+}*/
 
 /*-----------------------------------------------------------------
         SECCION LO QUE OFRECEMOS
@@ -890,8 +893,25 @@ body #barNav {
 
 @media (max-width:1200px) {
     /*-----------------------------------------------------------------
-    Banner principal responsive adicional para tamaño mas pequeño
+    responsive adicional para tamaño mas pequeño
 ------------------------------------------------------------------*/
+
+    .col-md-4 {
+        width: 33.3333% !important;
+    }
+
+    #ourTeamCards {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px 0px;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+        justify-content: center;
+    }
+
 
     .principal-banner {
         display: flex;
@@ -901,7 +921,7 @@ body #barNav {
 
         gap: 20px 20px;
         background-color: var(--color-azul-semioscuro);
-        height: 75vh;
+        height: 70vh;
     }
 
 
@@ -933,10 +953,10 @@ body #barNav {
     .content-info-COb-seo-title {
         color: var(--color-blanco);
         font-family: "myFont";
-        font-size: 55px;
+        font-size: 45px;
         font-weight: 600;
         text-align: start;
-
+        padding-top: 40px;
         margin: 0%;
     }
 
@@ -951,9 +971,9 @@ body #barNav {
     }
 
     .img-content-info-COb {
-        width: 500px;
+        width: 550px;
         z-index: 31241;
-        padding-top: 210px;
+        padding-top: 160px;
     }
 
 
@@ -1011,7 +1031,136 @@ body #barNav {
     }
 
 
+    /*-----------------------------------------------------------------
+        SECCION SOBRE NUESTROS SERVICIOS
+    ------------------------------------------------------------------*/
+    #ourServicesContainer article {
+        background: purple;
+        width: 60vw;
+        margin: 0 auto;
+        height: auto;
+        font-family: var(--textos-generales);
+        border-radius: 3rem;
+        padding: 4rem;
+        margin-bottom: 2rem;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #ourServicesContainer article picture {
+        width: 20%;
+        margin-left: 3rem;
+    }
+
+    #ourServicesContainer article p {
+        width: 80%;
+        font-size: 2rem;
+        color: #fff;
+    }
+
+    #ourServicesContainer article img {
+        width: 10rem;
+        height: 10rem;
+    }
+
+    #ourServicesContainer .ourServicesContainer1 {
+        background: var(--color-azul-oscuro);
+    }
+
+    #ourServicesContainer .ourServicesContainer2 {
+        background: var(--color-amarillo);
+    }
+
+    #ourServicesContainer .ourServicesContainer2 p {
+        color: var(--color-azul-oscuro);
+    }
+
+
+    #ourServicesContainer .ourServicesContainer3 {
+        background: var(--color-azul-semioscuro);
+    }
+
+    #supportLocal {
+        background: none;
+        padding: 3rem;
+        width: 80vw;
+        margin: 0 auto;
+        text-align: center;
+        font-family: var(--textos-generales);
+
+    }
+
+    #supportLocal h2 {
+        font-size: 3.5rem;
+        margin-bottom: 2rem;
+    }
+
+    #supportLocal p {
+        font-size: 2.5rem;
+    }
+
+    #supportLocal #supportLocalContainerForm {
+        border-radius: 3rem;
+        border: solid .5rem rgba(0, 0, 0, .1);
+        padding: 3rem;
+        margin-top: 5rem;
+    }
+
+
+    #supportLocalContainerForm .textAboutForm {
+        margin-bottom: 3rem;
+    }
+
+    #supportLocal #supportLocalContainerForm article {
+        margin-bottom: 3rem;
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #supportLocal #supportLocalContainerForm .FormCheckList {
+        margin-right: 10rem;
+    }
+
+    #supportLocal #supportLocalContainerForm .FormCheckList label {
+        margin-left: 3rem;
+        text-align: left;
+        font-size: 2.3rem;
+        font-family: var(--textos-generales);
+    }
+
+    #supportLocal #supportLocalContainerForm .FormCheckList .form-check {
+        background: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    #supportLocal #supportLocalContainerForm .FormCheckList .form-check input {
+        padding: 1.2rem;
+    }
+
+    #supportLocal #supportLocalContainerForm #inputCorreo input {
+        height: 5rem;
+        width: 50rem;
+        font-size: 2rem;
+        border-radius: 1rem;
+    }
+
+    #supportLocal #supportLocalContainerForm .form-control {
+        height: 20rem;
+        font-size: 2rem;
+        border-radius: 1rem;
+    }
+
 }
+
+
 
 
 /*==========================================
@@ -1401,160 +1550,6 @@ body #barNav {
     }
 
 
-    /*-----------------------------------------------------------------
-    SECCION NUESTRO EQUIPO
-------------------------------------------------------------------*/
-
-    .our-team .team-row {
-        margin-left: -40px;
-        margin-right: -40px;
-    }
-
-    .our-team .team-wrap {
-        padding: 0 40px;
-    }
-
-    .our-team .container-fluid {
-        padding: 0 50px;
-    }
-
-    .team-img img {
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-        overflow: hidden;
-        width: 100%;
-    }
-
-    .miembros,
-    .team-img {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .name-develop {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }
-
-    .team-title {
-        text-align: start;
-        margin: 0% auto;
-        color: var(--color-azul-semioscuro);
-
-        font-family: "myFont";
-        font-size: 22px;
-        font-weight: bold;
-        text-align: start;
-    }
-
-    .team-title-dev {
-        text-align: start;
-        margin: 0% auto;
-        color: var(--color-azul-semioscuro);
-
-        font-family: "myFont";
-        font-size: 12px;
-        font-weight: 100;
-        text-align: start;
-    }
-
-    .overlay {
-        background-color: rgba(20, 20, 20, .7);
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-    }
-
-    .detalles {
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 0;
-        padding: 5%;
-        overflow: hidden;
-        width: 100%;
-        z-index: 2;
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-    }
-
-    .detalles p {
-        color: #fff;
-    }
-
-    .team-img:hover .detalles {
-        opacity: 1;
-        margin-top: -80px;
-    }
-
-    .team-img:hover .overlay {
-        opacity: 1;
-    }
-
-    .redes-sociales a {
-        display: inline-block;
-        width: 37px;
-        height: 37px;
-        background-color: transparent;
-    }
-
-    .redes-sociales i {
-        line-height: 37px;
-        color: #616161;
-        font-size: 14px;
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        text-align: center;
-        -webkit-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        transition: all 0.2s linear;
-    }
-
-    .detalles .redes-sociales i {
-        color: #fff;
-    }
-
-    .redes-sociales a:hover i {
-        color: #fff;
-        background-color: #355c7d;
-    }
-
-    #ourTeamCards {
-        background: none;
-        margin-top: 2rem;
-        margin-bottom: 5rem;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-
-    #ourTeamCards div {
-        width: 25rem;
-        height: 25rem;
-        margin-right: 3rem;
-        margin-bottom: 3rem;
-        font-size: 1.5rem;
-        font-family: var(--textos-generales);
-    }
 
     /*-----------------------------------------------------------------
     SECCION LO QUE OFRECEMOS
@@ -1864,9 +1859,28 @@ body #barNav {
 }
 
 
+@media (max-width:777px) {
+    /*-----------------------------------------------------------------
+    responsive adicional para tamaño mas pequeño
+------------------------------------------------------------------*/
 
+    .col-md-4 {
+        width: 49% !important;
+    }
 
+    #ourTeamCards {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 0px;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+        justify-content: center;
+    }
 
+}
 
 
 
@@ -1876,12 +1890,29 @@ body #barNav {
 
 @media(max-width:665px) {
 
+    .col-md-4 {
+        width: 80% !important;
+    }
+
+    #ourTeamCards {
+        --bs-gutter-x: 1.5rem;
+        --bs-gutter-y: 0;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px 0px;
+        margin-top: calc(-1 * var(--bs-gutter-y));
+        margin-right: calc(-.5 * var(--bs-gutter-x));
+        margin-left: calc(-.5 * var(--bs-gutter-x));
+        justify-content: center;
+    }
+
     /*-----------------------------------------------------------------
     SECCION HEADER
 ------------------------------------------------------------------*/
     body #barNav {
         background: var(--color-azul-semioscuro) !important;
         padding-left: 0vh;
+        padding-top: 20px;
     }
 
     .ourLogo {
@@ -1956,7 +1987,7 @@ body #barNav {
         flex-direction: column;
         align-items: center;
         justify-items: center;
-        gap: 30px 30px;
+        gap: 20px 20px;
 
         width: 90%;
 
@@ -1965,7 +1996,7 @@ body #barNav {
     .content-info-COb-seo-title {
         color: var(--color-blanco);
         font-family: "myFont";
-        font-size: 45px;
+        font-size: 50px;
         font-weight: 600;
         text-align: center;
 
@@ -1984,9 +2015,9 @@ body #barNav {
     }
 
     .img-content-info-COb {
-        width: 350px;
+        width: 450px;
         z-index: 31241;
-        padding-top: 0px;
+        padding-top: 20px;
     }
 
 
@@ -2013,9 +2044,9 @@ body #barNav {
         border-bottom-left-radius: 5px;
         border-top-left-radius: 5px;
 
-        font-size: 15px;
+        font-size: 12px;
         padding: 10px;
-        width: 340px;
+        width: 300px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
     }
 
@@ -2031,7 +2062,7 @@ body #barNav {
         border-bottom-right-radius: 5px;
         border-top-right-radius: 5px;
 
-        font-size: 15px;
+        font-size: 12px;
         font-family: "myFont";
         padding: 10px;
         box-shadow: #00a2ff44 0px 10px 20px, #00A3FF30 0px 6px 6px;
@@ -2103,7 +2134,7 @@ body #barNav {
         align-items: center;
         justify-content: center;
         gap: 10px 10px;
-        width: 90%;
+        width: 95%;
     }
 
     .title-Hacemos-tu-proyect-realidad br {
@@ -2113,7 +2144,7 @@ body #barNav {
     .title-Hacemos-tu-proyect-realidad {
         margin: 0%;
         color: var(--color-azul-semioscuro);
-        font-size: 25px;
+        font-size: 22px;
         text-align: center;
         font-family: poppins, sans-serif;
         font-weight: 600;
@@ -2124,7 +2155,7 @@ body #barNav {
     .paraf-Hacemos-tu-proyect-realidad {
         margin: 0%;
         color: var(--color-azul-semioscuro);
-        font-size: 17px;
+        font-size: 15px;
         text-align: center;
         font-family: poppins, sans-serif;
         font-weight: 200;
@@ -2259,160 +2290,6 @@ body #barNav {
     }
 
 
-    /*-----------------------------------------------------------------
-    SECCION NUESTRO EQUIPO
-------------------------------------------------------------------*/
-
-    .our-team .team-row {
-        margin-left: -40px;
-        margin-right: -40px;
-    }
-
-    .our-team .team-wrap {
-        padding: 0 40px;
-    }
-
-    .our-team .container-fluid {
-        padding: 0 50px;
-    }
-
-    .team-img img {
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-        overflow: hidden;
-        width: 100%;
-    }
-
-    .miembros,
-    .team-img {
-        position: relative;
-        overflow: hidden;
-    }
-
-    .name-develop {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-content: center;
-    }
-
-    .team-title {
-        text-align: start;
-        margin: 0% auto;
-        color: var(--color-azul-semioscuro);
-
-        font-family: "myFont";
-        font-size: 22px;
-        font-weight: bold;
-        text-align: start;
-    }
-
-    .team-title-dev {
-        text-align: start;
-        margin: 0% auto;
-        color: var(--color-azul-semioscuro);
-
-        font-family: "myFont";
-        font-size: 12px;
-        font-weight: 100;
-        text-align: start;
-    }
-
-    .overlay {
-        background-color: rgba(20, 20, 20, .7);
-        position: absolute;
-        top: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0;
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-    }
-
-    .detalles {
-        opacity: 0;
-        position: absolute;
-        top: 50%;
-        left: 0;
-        padding: 5%;
-        overflow: hidden;
-        width: 100%;
-        z-index: 2;
-        -webkit-transition: all .2s ease-in-out;
-        -moz-transition: all .2s ease-in-out;
-        -o-transition: all .2s ease-in-out;
-        transition: all .2s ease-in-out;
-    }
-
-    .detalles p {
-        color: #fff;
-    }
-
-    .team-img:hover .detalles {
-        opacity: 1;
-        margin-top: -80px;
-    }
-
-    .team-img:hover .overlay {
-        opacity: 1;
-    }
-
-    .redes-sociales a {
-        display: inline-block;
-        width: 37px;
-        height: 37px;
-        background-color: transparent;
-    }
-
-    .redes-sociales i {
-        line-height: 37px;
-        color: #616161;
-        font-size: 14px;
-        width: 37px;
-        height: 37px;
-        border-radius: 50%;
-        text-align: center;
-        -webkit-transition: all 0.2s linear;
-        -moz-transition: all 0.2s linear;
-        -o-transition: all 0.2s linear;
-        -ms-transition: all 0.2s linear;
-        transition: all 0.2s linear;
-    }
-
-    .detalles .redes-sociales i {
-        color: #fff;
-    }
-
-    .redes-sociales a:hover i {
-        color: #fff;
-        background-color: #355c7d;
-    }
-
-    #ourTeamCards {
-        background: none;
-        margin-top: 2rem;
-        margin-bottom: 5rem;
-
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-        flex-wrap: wrap;
-    }
-
-
-    #ourTeamCards div {
-        width: 25rem;
-        height: 25rem;
-        margin-right: 3rem;
-        margin-bottom: 3rem;
-        font-size: 1.5rem;
-        font-family: var(--textos-generales);
-    }
 
     /*-----------------------------------------------------------------
     SECCION LO QUE OFRECEMOS
@@ -2723,6 +2600,197 @@ body #barNav {
 
 }
 
+
+
+
+@media (max-width:450px) {
+    /*-----------------------------------------------------------------
+    responsive adicional para tamaño mas pequeño
+------------------------------------------------------------------*/
+
+    /*========banner principal=====================*/
+    .principal-banner {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+
+        gap: 20px 20px;
+        background-color: var(--color-azul-semioscuro);
+        height: 70vh;
+    }
+
+
+
+    /*------------content info------------------*/
+
+    .content-info-COb {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        padding-left: 0vh;
+        gap: 10px 10px;
+        position: relative;
+    }
+
+    .content-info-COb-texts {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        gap: 20px 20px;
+
+        width: 90%;
+
+    }
+
+    .content-info-COb-seo-title {
+        color: var(--color-blanco);
+        font-family: "myFont";
+        font-size: 46px;
+        font-weight: 600;
+        text-align: center;
+
+        margin: 0%;
+        padding-top: 20px;
+    }
+
+    .content-info-COb-parraf {
+        color: var(--color-blanco);
+        font-family: "myFont";
+        font-size: 17.5px;
+        font-weight: lighter;
+        text-align: center;
+        margin: 0%;
+
+    }
+
+    .img-content-info-COb {
+        width: 380px;
+        z-index: 31241;
+        padding-top: 0px;
+    }
+
+
+
+
+    /*-=--------------form-text-email*/
+
+    .form-text-email {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 0px;
+    }
+
+    .input-form-text {
+        background-color: var(--color-azul-oscuro);
+        color: var(--color-blanco);
+        border: none;
+        outline: none;
+        font-family: "myFont";
+
+        border-bottom-left-radius: 5px;
+        border-top-left-radius: 5px;
+
+        font-size: 12px;
+        padding: 10px;
+        width: 300px;
+        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    }
+
+    ::placeholder {
+        color: var(--color-blanco);
+    }
+
+    .buton-form-text {
+        background-color: var(--color-celeste-claro);
+        color: var(--color-blanco);
+        border: none;
+
+        border-bottom-right-radius: 5px;
+        border-top-right-radius: 5px;
+
+        font-size: 12px;
+        font-family: "myFont";
+        padding: 10px;
+        box-shadow: #00a2ff44 0px 10px 20px, #00A3FF30 0px 6px 6px;
+        transition: var(--base-transiciones);
+    }
+
+    .buton-form-text:hover {
+        box-shadow: #00a2ff82 0px 10px 20px, #00A3FF60 0px 6px 6px;
+    }
+
+
+    /*-----------------------------------------------------------------
+    ventajs
+------------------------------------------------------------------*/
+    #accordionPanelsStayOpenExample {
+        width: 95%;
+        margin: 0% auto;
+        padding: 10px 0px 30px 0px;
+    }
+
+
+    #accordion-item {
+        border-radius: 0px;
+        box-shadow: rgba(0, 0, 0, 0.059) 0px 3px 6px, rgba(0, 0, 0, 0.088) 0px 3px 6px;
+        margin: 15px auto;
+        border-radius: 10px;
+        outline: none;
+    }
+
+
+    .accordion-header {
+        color: var(--color-azul-semioscuro);
+        font-size: 1.8rem;
+        font-family: poppins, sans-serif;
+        font-style: normal;
+
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        padding: 10px 0px 0px 0px;
+        text-align: center;
+        border: none;
+    }
+
+
+    #panelsStayOpen-headingOn-font:focus {
+        z-index: 3;
+        border-color: rgba(0, 162, 255, 0);
+        outline: 0;
+        box-shadow: 0 0 0 0.25rem rgba(13, 109, 253, 0);
+    }
+
+    #panelsStayOpen-headingOn-font:not(.collapsed) {
+        transition: var(--base-transiciones);
+        background-color: var(--color-background) !important;
+        box-shadow: none;
+    }
+
+    #accordion-body {
+        color: var(--color-azul-oscuro);
+        font-size: 1.5rem;
+        font-family: poppins, sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        border: none;
+        padding: 15px;
+    }
+
+}
+
+
+
+
+
+
+
+
 /*==========================================
                 Footer
 ==========================================*/
@@ -2742,60 +2810,23 @@ body #barNav {
 
 /* ⚠️⚠️⚠️⚠️ AQUI TERMINA LOS ESTILOS PARA VERSION DE ESCRITORIO ⚠️⚠️⚠️⚠️*/
 
+.fa-bars {
+    color: var(--color-blanco);
+    font-size: 40px;
+}
 
-
+#navbar-toggler {
+    border: none;
+    outline: none !important;
+}
 
 @media (max-width: 800px) {
-    body {
-        font-family: var(--textos-generales) !important;
-    }
-
-    body img {
-        width: 2rem;
-        height: 2rem;
-
-    }
-
-
-    /*-----------------------------------------------------------------
-    SECCION HEADER
-------------------------------------------------------------------*/
-    body #barNav {
-        background: var(--color-azul-oscuro) !important;
-    }
-
-
-    #barNav .ourLogo {
-        width: 4rem;
-        height: 4rem;
-        margin-top: .5rem;
-        margin-bottom: .5rem;
-    }
-
-    #barNav #navbarNavDropdown ul li a {
-        color: #fff;
-        font-size: 2rem;
-    }
-
-    #barNav .container-fluid .navbar-toggler:focus {
-        border: none;
-        background: white;
-    }
 
     #barNav .container-fluid .navbar-toggler-icon {
-        background: url("../img/index/menuBlack.png");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         padding: 1.2rem;
     }
-
-
-
-
-
-
-
-
 
 }
