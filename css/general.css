@@ -206,3 +206,69 @@ body::-webkit-scrollbar-thumb {
     font-family: "myFont";
     src: url("../img/fonts/Garet-Book.ttf");
 }
+
+
+
+/*LO QUE ESTABA EN INDEX CSS*/
+@import url("https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
+
+@font-face {
+    font-family: "myFont";
+    src: url("../img/fonts/Garet-Book.ttf");
+}
+
+@font-face {
+    font-family: "myFont2";
+    src: url("../img/fonts/Garet-Heavy.ttf");
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+:root {
+    --color-celeste-claro: #00A3FF;
+    --color-azul-semioscuro: #0D2B4F;
+    --color-azul-oscuro: #021831;
+    --color-background: #e4e4e498;
+    --color-amarillo: #F1C40F;
+    --color-blanco: #ffffff;
+    --base-transiciones: 600ms;
+    --border-bordes: 10px;
+    --textos-generales: "myFont";
+    --textos-titulares: "myFont2";
+}
+
+
+body {
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    background-color: var(--color-background) !important;
+    position: relative;
+    font-size: 15px;
+}
+
+img {
+    height: auto !important;
+}
+
+* {
+    text-decoration: none !important;
+}
+
+.col-md-4 {
+    width: 20% !important;
+}
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------------------------------------------------------*/
