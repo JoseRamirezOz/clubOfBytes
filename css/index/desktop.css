@@ -1,6 +1,7 @@
-/*-----------------------------------------------------------------
-        SECCION HEADER
-    ------------------------------------------------------------------*/
+@media (min-width:1024px) {
+    /*----------------------------------------------------------------------------------------
+    SECCION HEADER
+-----------------------------------------------------------------------------------------*/
 body #barNav {
     background: var(--color-azul-semioscuro) !important;
     padding-left: 10vh;
@@ -165,11 +166,9 @@ body #barNav {
 }
 
 
-
-
-/*==========================================
-                    QUINES SOMOS
-    ==========================================*/
+/*----------------------------------------------------------------------------------------
+    SECCION QUIENES SOMOS 
+-----------------------------------------------------------------------------------------*/
 
 .quienes-somos-div {
     display: flex;
@@ -202,14 +201,9 @@ body #barNav {
     text-align: center;
 }
 
-/*
-        /*==========================================
-                       Hacemos tu proyecto realidad
-        ==========================================*
-    */
-
-
-
+/*----------------------------------------------------------------------------------------
+    SECCION HACEMOS TU PROYECTO REALIDAD 
+-----------------------------------------------------------------------------------------*/
 .Hacemos-tu-proyect-realidad-div {
     display: flex;
     flex-direction: row;
@@ -314,12 +308,9 @@ body #barNav {
 
 }
 
-
-
-
-/*==========================================
-                    NUESTRO TRABAJO
-    ==========================================*/
+/*----------------------------------------------------------------------------------------
+    SECCION NUESTRO TRABAJO 
+-----------------------------------------------------------------------------------------*/
 
 .nuestro-trabajo-div-title {
     margin: 0% auto;
@@ -377,9 +368,9 @@ body #barNav {
 }
 
 
-/*-----------------------------------------------------------------
-        SECCION NUESTRO EQUIPO
-    ------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------
+    SECCION SOBRE NUESTRO EQUIPO 
+-----------------------------------------------------------------------------------------*/
 
 .our-team .team-row {
     margin-left: -40px;
@@ -534,9 +525,9 @@ body #barNav {
     font-family: var(--textos-generales);
 }*/
 
-/*-----------------------------------------------------------------
-        SECCION LO QUE OFRECEMOS
-    ------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------
+    SECCION LO QUE OFRECEMOS 
+-----------------------------------------------------------------------------------------*/
 #ourOffert article {
     background: none;
     width: 70vw;
@@ -587,9 +578,9 @@ body #barNav {
     font-weight: 300;
 }
 
-/*-----------------------------------------------------------------
-        ventajs
-    ------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------
+    SECCION ACERCA DE NUESTRA VENTAJAS 
+-----------------------------------------------------------------------------------------*/
 #accordionPanelsStayOpenExample {
     width: 50%;
     margin: 0% auto;
@@ -643,9 +634,9 @@ body #barNav {
     padding: 15px;
 }
 
-/*-----------------------------------------------------------------
-        TEXTO DE INVITACION
-    ------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------
+    SECCION TEXTO DE INVITACION 
+-----------------------------------------------------------------------------------------*/
 #textInvitation {
     background: url("/img/index/bgCode.jpg");
     background-repeat: no-repeat;
@@ -682,9 +673,9 @@ body #barNav {
     align-items: center;
 }
 
-/*-----------------------------------------------------------------
-        SECCION NUESTRO USO DE METODOLOGIAS AGILES
-------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------
+    SECCION NUESTRO USO DE LAS METODOLOGIAS AGILES 
+-----------------------------------------------------------------------------------------*/
 #ourMethodAgil {
     font-family: var(--textos-generales);
     width: 80vw;
@@ -711,9 +702,9 @@ body #barNav {
     border-bottom: solid .1rem black;
 }
 
-/*-----------------------------------------------------------------
-        SECCION SOBRE NUESTROS SERVICIOS
-    ------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------------
+    SECCION SOBRE NUESTROS SERVICIOS 
+-----------------------------------------------------------------------------------------*/
 #ourServicesContainer article {
     background: purple;
     width: 60vw;
@@ -838,9 +829,9 @@ body #barNav {
     border-radius: 1rem;
 }
 
-/*==========================================
-                Footer
-==========================================*/
+/*----------------------------------------------------------------------------------------
+    ULTIMA SECCION FOOTER 
+-----------------------------------------------------------------------------------------*/
 #footer {
     background-color: var(--color-azul-semioscuro) !important;
     color: var(--color-blanco) !important;
@@ -856,272 +847,281 @@ body #barNav {
 }
 
 
+
+
+
+}
+
+
+
+/*--------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------
+    DETALLES PARA DISPOSITIVOS MAS PEQUEÑOS 
+    --------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------*/
+/* SECCION DE NUESTRO EQUIPO */
 @media (max-width:1200px) {
-    /*-----------------------------------------------------------------
-    responsive adicional para tamaño mas pequeño
-------------------------------------------------------------------*/
+.col-md-4 {
+    width: 33.3333% !important;
+}
 
-    .col-md-4 {
-        width: 33.3333% !important;
-    }
-
-    #ourTeamCards {
-        --bs-gutter-x: 1.5rem;
-        --bs-gutter-y: 0;
-        display: flex;
-        flex-wrap: wrap;
-        gap: 10px 0px;
-        margin-top: calc(-1 * var(--bs-gutter-y));
-        margin-right: calc(-.5 * var(--bs-gutter-x));
-        margin-left: calc(-.5 * var(--bs-gutter-x));
-        justify-content: center;
-    }
+#ourTeamCards {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 0px;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-.5 * var(--bs-gutter-x));
+    margin-left: calc(-.5 * var(--bs-gutter-x));
+    justify-content: center;
+}
 
 
-    .principal-banner {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-items: center;
+.principal-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
 
-        gap: 20px 20px;
-        background-color: var(--color-azul-semioscuro);
-        height: 70vh;
-    }
+    gap: 20px 20px;
+    background-color: var(--color-azul-semioscuro);
+    height: 70vh;
+}
 
 
 
-    /*------------content info------------------*/
+/*------------content info------------------*/
 
-    .content-info-COb {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        position: relative;
-        padding-left: 14vh;
+.content-info-COb {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    padding-left: 14vh;
 
-        gap: 30px 30px;
-        position: relative;
-    }
+    gap: 30px 30px;
+    position: relative;
+}
 
-    .content-info-COb-texts {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        justify-items: center;
-        gap: 10px 10px;
+.content-info-COb-texts {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: center;
+    gap: 10px 10px;
 
-        width: 40%;
+    width: 40%;
 
-    }
+}
 
-    .content-info-COb-seo-title {
-        color: var(--color-blanco);
-        font-family: "myFont";
-        font-size: 45px;
-        font-weight: 600;
-        text-align: start;
-        padding-top: 40px;
-        margin: 0%;
-    }
+.content-info-COb-seo-title {
+    color: var(--color-blanco);
+    font-family: "myFont";
+    font-size: 45px;
+    font-weight: 600;
+    text-align: start;
+    padding-top: 40px;
+    margin: 0%;
+}
 
-    .content-info-COb-parraf {
-        color: var(--color-blanco);
-        font-family: "myFont";
-        font-size: 15px;
-        font-weight: lighter;
+.content-info-COb-parraf {
+    color: var(--color-blanco);
+    font-family: "myFont";
+    font-size: 15px;
+    font-weight: lighter;
 
-        margin: 0%;
+    margin: 0%;
 
-    }
+}
 
-    .img-content-info-COb {
-        width: 550px;
-        z-index: 31241;
-        padding-top: 160px;
-    }
+.img-content-info-COb {
+    width: 550px;
+    z-index: 31241;
+    padding-top: 160px;
+}
 
 
 
 
-    /*-=--------------form-text-email*/
+/*-=--------------form-text-email*/
 
-    .form-text-email {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
+.form-text-email {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 
-        margin-bottom: 200px;
-    }
+    margin-bottom: 200px;
+}
 
-    .input-form-text {
-        background-color: var(--color-azul-oscuro);
-        color: var(--color-blanco);
-        border: none;
-        outline: none;
-        font-family: "myFont";
+.input-form-text {
+    background-color: var(--color-azul-oscuro);
+    color: var(--color-blanco);
+    border: none;
+    outline: none;
+    font-family: "myFont";
 
-        border-bottom-left-radius: 5px;
-        border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
 
-        font-size: 15px;
-        padding: 10px;
-        width: 380px;
-        box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-    }
+    font-size: 15px;
+    padding: 10px;
+    width: 380px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
 
-    ::placeholder {
-        color: var(--color-blanco);
-    }
+::placeholder {
+    color: var(--color-blanco);
+}
 
-    .buton-form-text {
-        background-color: var(--color-celeste-claro);
-        color: var(--color-blanco);
-        border: none;
+.buton-form-text {
+    background-color: var(--color-celeste-claro);
+    color: var(--color-blanco);
+    border: none;
 
-        border-bottom-right-radius: 5px;
-        border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
 
-        font-size: 15px;
-        font-family: "myFont";
-        padding: 10px;
-        box-shadow: #00a2ff44 0px 10px 20px, #00A3FF30 0px 6px 6px;
-        transition: var(--base-transiciones);
-        z-index: 2312334124;
-    }
+    font-size: 15px;
+    font-family: "myFont";
+    padding: 10px;
+    box-shadow: #00a2ff44 0px 10px 20px, #00A3FF30 0px 6px 6px;
+    transition: var(--base-transiciones);
+    z-index: 2312334124;
+}
 
-    .buton-form-text:hover {
-        box-shadow: #00a2ff82 0px 10px 20px, #00A3FF60 0px 6px 6px;
-    }
-
-
-    /*-----------------------------------------------------------------
-        SECCION SOBRE NUESTROS SERVICIOS
-    ------------------------------------------------------------------*/
-    #ourServicesContainer article {
-        background: purple;
-        width: 60vw;
-        margin: 0 auto;
-        height: auto;
-        font-family: var(--textos-generales);
-        border-radius: 3rem;
-        padding: 4rem;
-        margin-bottom: 2rem;
-
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    #ourServicesContainer article picture {
-        width: 20%;
-        margin-left: 3rem;
-    }
-
-    #ourServicesContainer article p {
-        width: 80%;
-        font-size: 2rem;
-        color: #fff;
-    }
-
-    #ourServicesContainer article img {
-        width: 10rem;
-        height: 10rem;
-    }
-
-    #ourServicesContainer .ourServicesContainer1 {
-        background: var(--color-azul-oscuro);
-    }
-
-    #ourServicesContainer .ourServicesContainer2 {
-        background: var(--color-amarillo);
-    }
-
-    #ourServicesContainer .ourServicesContainer2 p {
-        color: var(--color-azul-oscuro);
-    }
+.buton-form-text:hover {
+    box-shadow: #00a2ff82 0px 10px 20px, #00A3FF60 0px 6px 6px;
+}
 
 
-    #ourServicesContainer .ourServicesContainer3 {
-        background: var(--color-azul-semioscuro);
-    }
+/*--------------------------------------------------------------------------------------------------------
+    SECCION SOBRE NUESTROS EQUIPOS 
+---------------------------------------------------------------------------------------------------------*/
+#ourServicesContainer article {
+    background: purple;
+    width: 60vw;
+    margin: 0 auto;
+    height: auto;
+    font-family: var(--textos-generales);
+    border-radius: 3rem;
+    padding: 4rem;
+    margin-bottom: 2rem;
 
-    #supportLocal {
-        background: none;
-        padding: 3rem;
-        width: 80vw;
-        margin: 0 auto;
-        text-align: center;
-        font-family: var(--textos-generales);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
 
-    }
+#ourServicesContainer article picture {
+    width: 20%;
+    margin-left: 3rem;
+}
 
-    #supportLocal h2 {
-        font-size: 3.5rem;
-        margin-bottom: 2rem;
-    }
+#ourServicesContainer article p {
+    width: 80%;
+    font-size: 2rem;
+    color: #fff;
+}
 
-    #supportLocal p {
-        font-size: 2.5rem;
-    }
+#ourServicesContainer article img {
+    width: 10rem;
+    height: 10rem;
+}
 
-    #supportLocal #supportLocalContainerForm {
-        border-radius: 3rem;
-        border: solid .5rem rgba(0, 0, 0, .1);
-        padding: 3rem;
-        margin-top: 5rem;
-    }
+#ourServicesContainer .ourServicesContainer1 {
+    background: var(--color-azul-oscuro);
+}
+
+#ourServicesContainer .ourServicesContainer2 {
+    background: var(--color-amarillo);
+}
+
+#ourServicesContainer .ourServicesContainer2 p {
+    color: var(--color-azul-oscuro);
+}
 
 
-    #supportLocalContainerForm .textAboutForm {
-        margin-bottom: 3rem;
-    }
+#ourServicesContainer .ourServicesContainer3 {
+    background: var(--color-azul-semioscuro);
+}
 
-    #supportLocal #supportLocalContainerForm article {
-        margin-bottom: 3rem;
+#supportLocal {
+    background: none;
+    padding: 3rem;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    font-family: var(--textos-generales);
 
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
-    }
+}
 
-    #supportLocal #supportLocalContainerForm .FormCheckList {
-        margin-right: 10rem;
-    }
+#supportLocal h2 {
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
+}
 
-    #supportLocal #supportLocalContainerForm .FormCheckList label {
-        margin-left: 3rem;
-        text-align: left;
-        font-size: 2.3rem;
-        font-family: var(--textos-generales);
-    }
+#supportLocal p {
+    font-size: 2.5rem;
+}
 
-    #supportLocal #supportLocalContainerForm .FormCheckList .form-check {
-        background: none;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-    }
+#supportLocal #supportLocalContainerForm {
+    border-radius: 3rem;
+    border: solid .5rem rgba(0, 0, 0, .1);
+    padding: 3rem;
+    margin-top: 5rem;
+}
 
-    #supportLocal #supportLocalContainerForm .FormCheckList .form-check input {
-        padding: 1.2rem;
-    }
 
-    #supportLocal #supportLocalContainerForm #inputCorreo input {
-        height: 5rem;
-        width: 50rem;
-        font-size: 2rem;
-        border-radius: 1rem;
-    }
+#supportLocalContainerForm .textAboutForm {
+    margin-bottom: 3rem;
+}
 
-    #supportLocal #supportLocalContainerForm .form-control {
-        height: 20rem;
-        font-size: 2rem;
-        border-radius: 1rem;
-    }
+#supportLocal #supportLocalContainerForm article {
+    margin-bottom: 3rem;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList {
+    margin-right: 10rem;
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList label {
+    margin-left: 3rem;
+    text-align: left;
+    font-size: 2.3rem;
+    font-family: var(--textos-generales);
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList .form-check {
+    background: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#supportLocal #supportLocalContainerForm .FormCheckList .form-check input {
+    padding: 1.2rem;
+}
+
+#supportLocal #supportLocalContainerForm #inputCorreo input {
+    height: 5rem;
+    width: 50rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
+
+#supportLocal #supportLocalContainerForm .form-control {
+    height: 20rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+}
 
 
 }
