@@ -779,82 +779,72 @@ body #barNav {
 /*-------------------------------------------------------------------------------------------------
     SECCION SOPORTE TECNICO LOCAL
 --------------------------------------------------------------------------------------------------*/
-#supportLocal {
-    background: none;
-    padding: 3rem;
-    width: 80vw;
-    margin: 0 auto;
-    text-align: center;
-    font-family: var(--textos-generales);
-
+#supportLocal{
+    background:none;
+    padding:2.5rem;
+    margin:1rem;
+    border-radius:1rem;
+    
+    font-family:var(--textos-generales);
 }
 
-#supportLocal h2 {
-    font-size: 3.5rem;
-    margin-bottom: 2rem;
+#supportLocal h2{
+    text-align:center;
+    font-size:2.5rem;
+    margin-bottom:1.5rem;
 }
 
-#supportLocal p {
-    font-size: 2.5rem;
-}
-
-#supportLocal #supportLocalContainerForm {
-    border-radius: 3rem;
-    border: solid .5rem rgba(0, 0, 0, .1);
-    padding: 3rem;
-    margin-top: 5rem;
+#supportLocal p{
+    font-size:1.6rem;
+    text-align:center;
 }
 
 
-#supportLocalContainerForm .textAboutForm {
-    margin-bottom: 3rem;
+#supportLocal #supportLocalContainerForm{
+    border-radius:1rem;
+    border:solid .2rem var(--color-gris-transparent);
+    padding:1rem;
+    margin-top:3rem;
+    margin-left:-2rem;
+    margin-right:-2rem;
 }
 
-#supportLocal #supportLocalContainerForm article {
-    margin-bottom: 3rem;
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+#supportLocal .textAboutForm{
+    text-align:left;
 }
 
-#supportLocal #supportLocalContainerForm .FormCheckList {
-    margin-right: 10rem;
+#supportLocalContainerForm article .FormCheckList{
+    background:none;
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-wrap:wrap;
+    font-size:1.5rem;
+    margin-bottom:2rem;
 }
 
-#supportLocal #supportLocalContainerForm .FormCheckList label {
-    margin-left: 3rem;
-    text-align: left;
-    font-size: 2.3rem;
-    font-family: var(--textos-generales);
+#supportLocalContainerForm article .FormCheckList div{
+    margin:1rem;
 }
 
-#supportLocal #supportLocalContainerForm .FormCheckList .form-check {
-    background: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+#supportLocalContainerForm article .FormCheckList input{
+    padding:1.2rem;
+    margin-right:1rem;
 }
 
-#supportLocal #supportLocalContainerForm .FormCheckList .form-check input {
-    padding: 1.2rem;
-}
-
-#supportLocal #supportLocalContainerForm #inputCorreo input {
-    height: 5rem;
-    width: 50rem;
-    font-size: 2rem;
-    border-radius: 1rem;
-}
-
-#supportLocal #supportLocalContainerForm .form-control {
-    height: 20rem;
-    font-size: 2rem;
-    border-radius: 1rem;
+#supportLocalContainerForm article .FormCheckList .form-check{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
 }
 
 
+#supportLocalContainerForm .inputsMailMessage .form-control{
+    padding:1.5rem 1rem;
+    font-size:1.8rem;
+}
 
 
 

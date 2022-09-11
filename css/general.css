@@ -178,6 +178,7 @@ select {
     --color-azul-oscuro: #021831;
     --color-background: #e4e4e498;
     --color-amarillo: #F1C40F;
+    --color-gris-transparent:rgba(0, 0, 0, .1);
     --color-blanco: #ffffff;
     --base-transiciones: 600ms;
     --border-bordes: 10px;
