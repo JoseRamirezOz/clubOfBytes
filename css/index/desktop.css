@@ -638,7 +638,7 @@ body #barNav {
     SECCION TEXTO DE INVITACION 
 -----------------------------------------------------------------------------------------*/
 #textInvitation {
-    background: url(".../img/index/bgCode.jpg");
+    background: url("../../img/index/bgCode.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
