@@ -708,7 +708,7 @@ body #principalBanner img{
     SECCION TEXTO DE INVITACION 
 -----------------------------------------------------------------------------------------*/
 body #textInvitation {
-    background: url("/img/index/bgCode.jpg") !important;
+    background: url("img/index/bgCode.jpg") !important;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
