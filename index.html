@@ -72,7 +72,7 @@
         </div>
     </nav>
 
-    <section class="principal-banner">
+    <section id="principalBanner" class="principal-banner">
 
         <!--<header class="header-capa">
          <a class="a-capa-link-interno" href="">
@@ -89,7 +89,7 @@
             <div class="content-info-COb-texts">
                 <h1 class="content-info-COb-seo-title">CLUB OF BYTES</h1>
 
-                <span class="content-info-COb-parraf">
+                <span id="introCOB" class="content-info-COb-parraf">
                     Soluciones basadas en datos, nuestras metodologias
                 de trabajo buscan constantemente mejorar los 
                 productos y servicios de nuestros clientes, 
@@ -97,8 +97,8 @@
                 tu idea lo mas claro posible
                 </span>
 
-                <form class="form-text-email" action="">
-                    <input class="input-form-text" placeholder="E-mail de contacto rapido para un proyecto" type="text">
+                <form id="fastMail" class="form-text-email" action="">
+                    <input class="input-form-text" placeholder="E-mail rapido para un proyecto" type="text">
                     <button class="buton-form-text">Enviar</button>
                 </form>
             </div>
@@ -180,7 +180,7 @@
   -->
 
     <p class="nuestro-trabajo-div-title" id="nuestroTeam">NUESTRO TEAM</p>
-    <section class="container">
+    <section id="containerOurTeam" class="container">
         <div id="ourTeamCards" class="row team-row">
 
             <div class="col-md-4 col-sm-6 team-wrap">
@@ -605,8 +605,8 @@
             </article>
 
 
-            <button type="button" class="btn btn-primary btn-lg">Enviar Información</button>
-            <button type="button" class="btn btn-secondary btn-lg">Limpiar</button>
+            <button type="button" id="btnFormSupport" class="btn btn-primary btn-lg">Enviar Información</button>
+            <button type="button" id="btnFormSupport" class="btn btn-secondary btn-lg">Limpiar</button>
         </article>
     </section>
 
@@ -629,7 +629,7 @@
             <!-- Left -->
 
             <!-- Right -->
-            <div>
+            <div id="iconsSocialMedia">
                 <a href="" class="me-4 text-reset" id="text-title-footer">
                     <i class="fab fa-facebook-f"></i>
                 </a>
@@ -651,7 +651,7 @@
         <!-- Section: Social media -->
 
         <!-- Section: Links  -->
-        <section class="">
+        <section id="linksFooter">
             <div class="container text-center text-md-start mt-5">
                 <!-- Grid row -->
                 <div class="row mt-3">
@@ -661,7 +661,7 @@
                         <h6 class="text-uppercase fw-bold mb-4" id="text-title-footer">
                             Club Of Bytes
                         </h6>
-                        <p>
+                        <p id="descriptionGrupFooter">
                             Nuestro equipo de desarrolladores son profesionales en encontrar las mejore soluciones para
                             nuestros clientes buscando llevar tu idea a la realidad
                         </p>
@@ -674,27 +674,29 @@
                         <h6 class="text-uppercase fw-bold mb-4" id="text-title-footer">
                             Tecnologias
                         </h6>
-                        <p>
-                            <a class="text-reset" id="text-reset">PHP</a>
-                        </p>
-                        <p>
-                            <a class="text-reset" id="text-reset">Bootrap</a>
-                        </p>
-                        <p>
-                            <a class="text-reset" id="text-reset">CSS</a>
-                        </p>
-                        <p>
-                            <a class="text-reset" id="text-reset">Laravel</a>
-                        </p>
-                        <p>
-                            <a class="text-reset" id="text-reset">JavaScript</a>
-                        </p>
-                        <p>
-                            <a class="text-reset" id="text-reset">HTML</a>
-                        </p>
-                        <p>
-                            <a class="text-reset" id="text-reset">MySQL</a>
-                        </p>
+                        <div id="ourTechs">
+                            <p>
+                                <a class="text-reset" id="text-reset">PHP</a>
+                            </p>
+                            <p>
+                                <a class="text-reset" id="text-reset">Bootrap</a>
+                            </p>
+                            <p>
+                                <a class="text-reset" id="text-reset">CSS</a>
+                            </p>
+                            <p>
+                                <a class="text-reset" id="text-reset">Laravel</a>
+                            </p>
+                            <p>
+                                <a class="text-reset" id="text-reset">JavaScript</a>
+                            </p>
+                            <p>
+                                <a class="text-reset" id="text-reset">HTML</a>
+                            </p>
+                            <p>
+                                <a class="text-reset" id="text-reset">MySQL</a>
+                            </p>
+                        </div>
                     </div>
                     <!-- Grid column -->
 
@@ -704,18 +706,20 @@
                         <h6 class="text-uppercase fw-bold mb-4" id="text-title-footer">
                             Enlaces útiles
                         </h6>
-                        <p>
-                            <a href="#quienesSomos" class="text-reset" id="text-reset">¿Quines somos?</a>
-                        </p>
-                        <p>
-                            <a href="#nuestroTeam" class="text-reset" id="text-reset">Nuestro Team</a>
-                        </p>
-                        <p>
-                            <a href="#proyectos" class="text-reset" id="text-reset">Proyectos</a>
-                        </p>
-                        <p>
-                            <a href="#ventajas" class="text-reset" id="text-reset">Ventajas</a>
-                        </p>
+                        <div id="enlacesUtiles">
+                            <p>
+                                <a href="#quienesSomos" class="text-reset" id="text-reset">¿Quines somos?</a>
+                            </p>
+                            <p>
+                                <a href="#nuestroTeam" class="text-reset" id="text-reset">Nuestro Team</a>
+                            </p>
+                            <p>
+                                <a href="#proyectos" class="text-reset" id="text-reset">Proyectos</a>
+                            </p>
+                            <p>
+                                <a href="#ventajas" class="text-reset" id="text-reset">Ventajas</a>
+                            </p>
+                        </div>
                     </div>
                     <!-- Grid column -->
 
@@ -723,16 +727,18 @@
                     <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                         <!-- Links -->
                         <h6 class="text-uppercase fw-bold mb-4" id="text-title-footer">Contacto</h6>
-                        <p><i class="fas fa-home me-3"></i> Mexico, CDMX</p>
+                        <!-- <p><i class="fas fa-home me-3"></i> Mexico, CDMX</p>
                         <p><i class="fas fa-home me-3"></i> Costa Rica, Cartago</p>
                         <p><i class="fas fa-home me-3"></i> Peru, Lima</p>
-                        <p><i class="fas fa-home me-3"></i> Venezuela, Caracas</p>
-                        <p>
-                            <i class="fas fa-envelope me-3"></i>
-                            clubofbytes@gmail.com
-                        </p>
-                        <p><i class="fas fa-phone me-3"></i> +506 86976985</p>
-                        <p><i class="fas fa-print me-3"></i> +52 1 55 6940 7119</p>
+                        <p><i class="fas fa-home me-3"></i> Venezuela, Caracas</p> -->
+                        <article id="mailPhoneFooter">
+                            <p>
+                                <i class="fas fa-envelope me-3"></i>
+                                clubofbytes@gmail.com
+                            </p>
+                            <p><i class="fas fa-phone me-3"></i> +506 86976985</p>
+                            <p><i class="fas fa-phone me-3"></i> +52 1 55 6940 7119</p>
+                        </article>
                     </div>
                     <!-- Grid column -->
                 </div>
@@ -750,20 +756,14 @@
     </footer>
     <!-- Footer -->
 
-    <script>
-        var $root = $('html, body');
 
-        $('a[href^="#"]').click(function () {
-            var href = $.attr(this, 'href');
 
-            $root.animate({
-                scrollTop: $(href).offset().top
-            }, 1000, function () {
-                window.location.hash = href;
-            });
-            return false;
-        });
-    </script>
+
+<!---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+    ENLACES DE JAVA SCRIPT Y BOOTSTRAP
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+    <script src="js/index.js"></script>
 
 
     <!-- LINKS DE REFERENCIA A BOOTSTRAP -->

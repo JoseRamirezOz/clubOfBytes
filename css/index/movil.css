@@ -48,6 +48,11 @@ body #barNav {
 
 
 /*========banner principal=====================*/
+.content-info-COb .content-info-COb-texts .content-info-COb-seo-title{
+    font-size:3rem;
+    font-family:var(--textos-generales);
+}
+
 .principal-banner {
     display: flex;
     flex-direction: column;
@@ -56,7 +61,29 @@ body #barNav {
 
     gap: 20px 20px;
     background-color: var(--color-azul-semioscuro);
-    height: 75vh;
+}
+
+body #principalBanner{
+    height:auto;
+}
+
+body #principalBanner img{
+    width:80%;
+    height:80%;
+    margin:0 auto;
+    margin-top:0rem;
+    margin-bottom:2rem;
+}
+
+#principalBanner .content-info-COb #introCOB{
+    background:none;
+    width:100vw;
+    padding:1rem;
+    text-align:center;
+}
+
+#principalBanner #fastMail{
+    width:90%;
 }
 
 
@@ -523,6 +550,13 @@ body #barNav {
     background-color: #355c7d;
 }
 
+
+#containerOurTeam #ourTeamCards div{
+    font-family:var(--textos-generales);
+}
+
+
+
 /*#ourTeamCards {
     background: none;
     margin-top: 2rem;
@@ -673,19 +707,18 @@ body #barNav {
 /*----------------------------------------------------------------------------------------
     SECCION TEXTO DE INVITACION 
 -----------------------------------------------------------------------------------------*/
-#textInvitation {
+body #textInvitation {
     background: url("/img/index/bgCode.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
     width: 100vw;
     height: 30vh;
-    font-size: 3rem;
+    font-size:1rem;
     font-family: var(--textos-generales);
     text-align: center;
     font-weight: bold;
     color: #fff;
-    
     
 }
 
@@ -698,7 +731,7 @@ body #barNav {
     font-family: poppins, sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size:2.5rem;
+    font-size:2rem;
 
     display:flex;
     flex-direction:column;
@@ -846,10 +879,77 @@ body #barNav {
     font-size:1.8rem;
 }
 
+body #supportLocal #btnFormSupport{
+    font-size:1.3rem;
+    padding:1rem;
+}
+/*-------------------------------------------------------------------------------------------------
+    FOOTER 
+--------------------------------------------------------------------------------------------------*/
+body #footer{
+    background:var(--color-azul-oscuro) !important;
+    color:#fff !important;
+    font-family:var(--textos-generales) !important;
+}
+
+body #footer #iconsSocialMedia a i{
+    font-size:2.5rem;
+    margin:1rem;
+}
+
+body #footer #descriptionGrupFooter{
+    font-size:1.6rem;
+}
+
+#footer div #text-title-footer{
+    font-size:2rem;
+    margin-top:2rem;
+    margin-bottom:-2rem;
+}
+
+body #footer #ourTechs{
+    background:none;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    padding:1rem;
+}
+
+body #footer #ourTechs p{
+    margin:1rem;
+    font-size:1.6rem;
+}
 
 
+body #footer #linksFooter #enlacesUtiles{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+body #footer #linksFooter #enlacesUtiles p{
+    margin:1rem;
+    font-size:1.6rem;
+}
 
 
+#footer #linksFooter #mailPhoneFooter{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    flex-wrap:wrap;
+    font-size:1.6rem;
+}
+
+
+#footer #copyright{
+    font-size:1.6rem;
+}
 
 /*--------------------------------------------------------------------------------------------------------
 ----------------------------------------------------------------------------------------------------------
