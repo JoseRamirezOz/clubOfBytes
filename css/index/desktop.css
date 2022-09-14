@@ -420,7 +420,7 @@ body #barNav {
 }
 
 .team-title-dev {
-    text-align: start;
+    text-align:center;
     margin: 0% auto;
     color: var(--color-azul-semioscuro);
 
@@ -430,7 +430,10 @@ body #barNav {
     text-align: start;
 }
 
-.overlay {
+
+
+
+ .overlay {
     background-color: rgba(20, 20, 20, .7);
     position: absolute;
     top: 0;
@@ -504,27 +507,13 @@ body #barNav {
     background-color: #355c7d;
 }
 
-/*#ourTeamCards {
-    background: none;
-    margin-top: 2rem;
-    margin-bottom: 5rem;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+#containerOurTeam #ourTeamCards div p{
+    font-family:var(--textos-generales);
+    font-size:1.3rem;
 }
 
 
-#ourTeamCards div {
-    width: 25rem;
-    height: 25rem;
-    margin-right: 3rem;
-    margin-bottom: 3rem;
-    font-size: 1.5rem;
-    font-family: var(--textos-generales);
-}*/
 
 /*----------------------------------------------------------------------------------------
     SECCION LO QUE OFRECEMOS 
