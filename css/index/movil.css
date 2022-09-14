@@ -22,6 +22,30 @@ body #barNav {
     padding: 10px;
 }
 
+
+#barNav .container-fluid #navbar-toggler{
+    border:none;
+}
+
+#barNav .container-fluid #navbar-toggler:focus{
+    border:none;
+    outline:none;
+    color:none !important
+}
+
+#barNav .container-fluid #navbar-toggler:active{
+    border:none;
+    outline:none;
+    color:none !important
+}
+
+#barNav .container-fluid #navbar-toggler:after{
+    border:none;
+    outline:none;
+    color:none !important
+}
+
+
 .header-capa {
     display: flex;
     flex-direction: row;
