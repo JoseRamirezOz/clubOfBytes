@@ -1,10 +1,10 @@
 document.addEventListener('click',(e)=>{
 	if(e.target.matches(".navbar-toggler")){
-        alert("hola")
-    document.querySelector(".navbar-toggler").style.setProperty("background","red")
-    }
-}
-
+        console.log("HOLA")
+        document.querySelector(".navbar-toggler").style.setProperty("outline","none !important")
+        document.querySelector(".navbar-toggler").style.setProperty("border","none !important")
+    }}
+)
 
 /*--------------------------------------------------------------------------------------------------
     ANIMACION INDEX

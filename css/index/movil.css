@@ -23,26 +23,8 @@ body #barNav {
 }
 
 
-#barNav .container-fluid #navbar-toggler{
-    border:none;
-}
-
-#barNav .container-fluid #navbar-toggler:focus{
-    border:none;
-    outline:none;
-    color:none !important
-}
-
-#barNav .container-fluid #navbar-toggler:active{
-    border:none;
-    outline:none;
-    color:none !important
-}
-
-#barNav .container-fluid #navbar-toggler:after{
-    border:none;
-    outline:none;
-    color:none !important
+.navbar-light .navbar-toggler{
+    color:rgba(0, 0, 0, .0) !important;
 }
 
 
